@@ -1,5 +1,5 @@
 # AS Simple Text Field Wp Plugin
-This Is A Simple Text Field With WordpPress Plugin.
+This Is A Simple Text Field With Shortcode WordpPress Plugin.
 
 
 ## Description
@@ -7,8 +7,7 @@ This Is A Simple Text Field With WordpPress Plugin.
 Just paste your data and get data via shortcode.
 
 ```
-This is your "[aweber_form]"
-
+[aweber_form]
 ```
 
 ## Installation
