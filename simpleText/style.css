@@ -1,0 +1,104 @@
+.anu_my_stutas_main,
+.as_gl_right {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease
+}
+.anu_my_stutas_main {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    top: 20px;
+    right: 0;
+    z-index: 6666;
+    transition: all 1s ease
+}
+.anu_my_stutas_main .anu_stutas_inner {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    position: relative
+}
+.anu_my_stutas_main .anu_stutas_inner span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: -100px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100px;
+    font-family: arial;
+    font-weight: 400;
+    line-height: normal
+}
+.anu_my_stutas_main .anu_stutas_inner header {
+    display: block;
+    padding: 0 12px;
+    overflow: hidden;
+    float: right;
+}
+.anu_my_stutas_main .anu_stutas_inner header img {
+    width: 64px;
+    height: 64px;
+    float: right
+}
+.anu_my_stutas_main .anu_stutas_inner ul {
+    padding: 0;
+    margin: 25px 0 0 0;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.anu_my_stutas_main .anu_stutas_inner ul li {
+    display: inline-block;
+    padding: 6.6px;
+    margin: 0 7px;
+    text-align: center;
+}
+.anu_my_stutas_main .anu_stutas_inner ul li a {
+    display: block;
+    text-align: center
+}
+.anu_my_stutas_main .anu_stutas_inner ul li a img[alt=anutk] {
+    border-radius: 50px
+}
+.anu_my_stutas_main .anu_stutas_inner ul li a img {
+    width: 44px;
+    margin: 0 auto
+}
+.as_gl_right {
+    margin-right: -300px;
+    transition: all 1s ease
+}
+.as_gl_left {
+    margin-right: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+#as_gl_skrril_donet {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 20px 0;
+    float: left
+}
+#as_gl_donet_amount {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    cursor: text
+}
